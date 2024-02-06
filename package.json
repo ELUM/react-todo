@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "author": "Mule <1533238648@qq.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "umi": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.54",
+    "@types/react-dom": "^18.2.18",
+    "@umijs/lint": "^4.1.1",
+    "eslint": "^8.56.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "stylelint": "^14",
+    "typescript": "^5.3.3"
+  }
+}
